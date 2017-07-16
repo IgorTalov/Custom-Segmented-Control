@@ -15,11 +15,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func customSegmentedControlValueChanged(_ sender: CustomSegmentedControl) {
+        
+        switch sender.selectedSegmentIndex {
+        case 0:
+            print("Index - 0")
+            break
+        case 1:
+            print("Index - 1")
+            break
+        case 2:
+            print("Index - 3")
+            break
+        default: break
+            
+        }
+        
     }
-
-
 }
 

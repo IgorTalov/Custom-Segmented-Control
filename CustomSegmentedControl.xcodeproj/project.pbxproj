@@ -12,6 +12,7 @@
 		EEA09B571F1BD7DB0080B600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA09B551F1BD7DB0080B600 /* Main.storyboard */; };
 		EEA09B591F1BD7DB0080B600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA09B581F1BD7DB0080B600 /* Assets.xcassets */; };
 		EEA09B5C1F1BD7DB0080B600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA09B5A1F1BD7DB0080B600 /* LaunchScreen.storyboard */; };
+		EEA09B641F1BD8190080B600 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA09B631F1BD8190080B600 /* CustomSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EEA09B581F1BD7DB0080B600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA09B5B1F1BD7DB0080B600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA09B5D1F1BD7DB0080B600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA09B631F1BD8190080B600 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		EEA09B501F1BD7DB0080B600 /* CustomSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				EEA09B511F1BD7DB0080B600 /* AppDelegate.swift */,
 				EEA09B531F1BD7DB0080B600 /* ViewController.swift */,
+				EEA09B511F1BD7DB0080B600 /* AppDelegate.swift */,
+				EEA09B631F1BD8190080B600 /* CustomSegmentedControl.swift */,
 				EEA09B551F1BD7DB0080B600 /* Main.storyboard */,
 				EEA09B581F1BD7DB0080B600 /* Assets.xcassets */,
 				EEA09B5A1F1BD7DB0080B600 /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					EEA09B4D1F1BD7DB0080B600 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = GU388YC6S7;
+						DevelopmentTeam = WJ2494P78F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +142,7 @@
 			files = (
 				EEA09B541F1BD7DB0080B600 /* ViewController.swift in Sources */,
 				EEA09B521F1BD7DB0080B600 /* AppDelegate.swift in Sources */,
+				EEA09B641F1BD8190080B600 /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +265,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GU388YC6S7;
+				DEVELOPMENT_TEAM = WJ2494P78F;
 				INFOPLIST_FILE = CustomSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.CustomSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,12 +280,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GU388YC6S7;
+				DEVELOPMENT_TEAM = WJ2494P78F;
 				INFOPLIST_FILE = CustomSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.CustomSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
