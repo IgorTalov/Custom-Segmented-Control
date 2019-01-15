@@ -59,7 +59,6 @@ class CustomSegmentedControl: UIControl {
     
     override func draw(_ rect: CGRect) {
         layer.cornerRadius = frame.height / 2
-
     }
 
     func updateView() {
@@ -98,7 +97,7 @@ class CustomSegmentedControl: UIControl {
         
     }
     
-    func buttonTapped(button: UIButton) {
+    @objc func buttonTapped(button: UIButton) {
         for (buttonIndex, btn) in buttons.enumerated() {
             btn.setTitleColor(textColor, for: .normal)
             
